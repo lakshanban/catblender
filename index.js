@@ -3,7 +3,6 @@ const blend = require("@mapbox/blend");
 const argv = require("minimist")(process.argv.slice(2));
 const { join } = require("path");
 const request = require("request");
-
 const util = require("util");
 const { getRequestUrl } = require("./helpers");
 
